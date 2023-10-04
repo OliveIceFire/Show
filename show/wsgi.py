@@ -51,7 +51,15 @@ import os
 import sys
 # Add your project's directory the PYTHONPATH
 
+# 下载后注释
+# 上传后取消注释
+
 path = '/home/ForShow/Show/'
+#
+# path = '../'
+
+
+
 if path not in sys.path:
     sys.path.append(path)
 # Move to the project directory

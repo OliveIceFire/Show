@@ -15,7 +15,10 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+#下面一条在本地打开时需要注销掉
 ALLOWED_HOSTS = ['forshow.pythonanywhere.com']
+# DEBUG = True
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
@@ -24,7 +27,6 @@ ALLOWED_HOSTS = ['forshow.pythonanywhere.com']
 SECRET_KEY = '4q!1k!w%*itr9c+-4ti5yj01y^gv=o7%8n8cb-swjf2^&^brai'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
 # ALLOWED_HOSTS = []
 # print(__file__)
