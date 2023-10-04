@@ -26,7 +26,7 @@ SECRET_KEY = '4q!1k!w%*itr9c+-4ti5yj01y^gv=o7%8n8cb-swjf2^&^brai'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 # print(__file__)
 # print(os.path.dirname(__file__))
 # print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
