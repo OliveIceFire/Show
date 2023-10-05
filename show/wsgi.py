@@ -54,9 +54,9 @@ import sys
 # 下载后注释
 # 上传后取消注释
 
-path = '/home/ForShow/Show/'
-#
-# path = '../'
+# path = '/home/ForShow/Show/'
+
+path = '../'
 
 
 

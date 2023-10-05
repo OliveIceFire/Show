@@ -16,8 +16,8 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 #下面一条在本地打开时需要注销掉
-ALLOWED_HOSTS = ['forshow.pythonanywhere.com']
-# DEBUG = True
+# ALLOWED_HOSTS = ['forshow.pythonanywhere.com']
+DEBUG = True
 
 
 # Quick-start development settings - unsuitable for production
