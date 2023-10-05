@@ -5,6 +5,8 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -89,6 +91,7 @@ address {
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit; }
+
 
 ol,
 ul,
@@ -8458,7 +8461,7 @@ a.text-dark:hover, a.text-dark:focus {
 .fa-long-arrow-up:before {
   content: ""; }
 
-.fa-long-arrow-left:before {
+.fa-long-arrow-left:before {``
   content: ""; }
 
 .fa-long-arrow-right:before {
@@ -9724,7 +9727,8 @@ a.navbar-brand span.fa {
   align-items: center;
   width: 100%;
   z-index: 10;
-  background: var(--secondary); }
+  background: var(--secondary);
+   }
 
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .active > .nav-link,
@@ -9776,10 +9780,10 @@ a.navbar-brand span.fa {
     font-size: 14px;
     padding-top: 3px; }
   .w3l-header .navbar-toggler {
-    padding: 6px 10px;
-    font-size: 16px;
+
     background-color: var(--primary);
     border: none; } }
+
 
 .w3l-main-banner {
   position: relative; }
